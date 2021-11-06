@@ -1,0 +1,8 @@
+.shown {
+    display: inline-block;
+  }
+
+  .main {
+     margin-bottom: 20px;
+     display: flex;
+  }

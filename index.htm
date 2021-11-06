@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Тестовая работа фильра</title>
+    <link rel = "stylesheet" href="styles.css"> 
 </head>
 <body>
+    <main class = "main">
+        <div class="container">
+            <h1 class="pictures">Пикрандом</h1>
+            <select class="filter" name="filter-all">
+                <option value="tyan">Тян</option>
+                <option value="putin">Путин</option>
+                <option value="reznya">Резня</option>
+                <option value="mailru">анальный ответ</option>
+                <option value="all">все вместе</option>
+            </select>
+        </div>
+
+        <section class="fotochki">
+            <article class="pic" data-category="tyan">
+                <img src="https://2ch.hk/b/thumb/214957962/15833988311852s.jpg" alt = "тян">
+            </article>
+            
+            <article class="fotochki" data-category="putin">
+                <img src="http://risovach.ru/upload/2017/01/mem/pikrandom_134756864_orig_.jpg" alt="путин">
+            </article>
+
+            <article class="fotochki" data-category="reznya">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBgkJ7OQWK7EfnPqdWHxFraMMUw_ub5wkPIQ&usqp=CAU" alt="резня">
+            </article>
+
+            <article class="fotochki" data-category="mailru">
+                <img src="https://otvet.mail.ru/api/v1/images/question/191036723/snippet" alt="мейлру">
+            </article>
+        </section>
+    </main>
     
 </body>
 </html>
