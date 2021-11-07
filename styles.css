@@ -5,4 +5,18 @@
   .main {
      margin-bottom: 20px;
      display: flex;
+     flex-wrap: wrap;
+     background-color: #aaa;
+     
   }
+
+  /* Выделение пиков */
+.fotochki.highlight {
+   padding-top: 6px;
+   padding-right: 6px;
+   padding-bottom: 10px;
+   padding-left: 6px;
+   border: 6px solid;
+ }
+
+ 
