@@ -1,5 +1,5 @@
 .shown {
-    display: inline-block;
+    display: block;
   }
 
   .hidden {
@@ -14,7 +14,11 @@
      
   }
 
-  @media picc (max-width: 1000px) 
+  @media (min-width: 900px) {
+    .fotochki {
+      max-width: fit-content;
+    }
+  }
 
   /* Выделение пиков */
 .fotochki.highlight {
