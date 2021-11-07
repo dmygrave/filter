@@ -5,5 +5,8 @@ for (let pic of pics) {
   if (pic.dataset.category === 'tyan') {        //оператор строгого равенства 
     pic.classList.add('highlight')
   }
-  
+}
+
+filter.onchange = function () {           //обработчик событий
+    console.log(filter.value)
 }
