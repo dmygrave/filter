@@ -1,12 +1,12 @@
 let pics = document.querySelectorAll('.fotochki');
 let filter = document.querySelector('.filter');
 
-for (let pic of pics) {
-  if (pic.dataset.category === 'tyan') {        //оператор строгого равенства 
-    pic.classList.add('highlight')
-  }
-}
+
 
 filter.onchange = function () {           //обработчик событий
-    console.log(filter.value)
+  for (let pic of pics) {
+    if (pic.dataset.category === filter.value) {        //оператор строгого равенства + Валуев хеххее
+      pic.classList.add('highlight')
+    }
+  }
 }
