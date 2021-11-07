@@ -14,11 +14,7 @@
      
   }
 
-  @media (max-width: 1000px) {
-    .fotochki {
-      max-width: fit-content;
-    }
-  }
+  img {max-width: 100%;}
 
   /* Выделение пиков */
 .fotochki.highlight {
