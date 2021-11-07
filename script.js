@@ -5,8 +5,8 @@ let filter = document.querySelector('.filter');
 
 filter.onchange = function () {           
   for (let pic of pics) {
-    if (pic.dataset.category === filter.value) {        
-      pic.classList.add('highlight')
+    if (pic.dataset.category !== filter.value) {         // оператор строгого НЕравенства1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      pic.classList.add('hidden')
     }
   }
 }
