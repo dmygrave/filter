@@ -12,22 +12,3 @@ filter.onchange = function () {
     }
   } 
 }
-
-// let form = document.querySelector('form');
-// let error = document.querySelector('.error');
-// let submit = document.querySelector('.submit-button');
-// let reviews = document.querySelectorAll('.review');
-
-// form.onchange = function () {
-// for (let review of reviews) {
-// review.onclick = function () {
-// if (review.dataset.evaluation !== 'good') {
-// error.classList.add('shown');
-// submit.disabled = true;
-// } else {
-// error.classList.remove('shown');
-// submit.disabled = false;
-// }
-// }
-// }
-// }
