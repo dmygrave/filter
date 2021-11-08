@@ -1,5 +1,5 @@
 .shown {
-  display:inline-block;
+  visibility: visible !important;
 }
 
 /* Для плавной прокрутки при нажатии на кнопку */
@@ -35,6 +35,7 @@ img {
 }
 
 .up-button {
+  visibility: hidden;
   position: fixed;
   z-index: 1;
   padding: 0;
