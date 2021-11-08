@@ -1,33 +1,40 @@
 .shown {
-    display: block;
-  }
+  display:inline-block;
+}
 
-  .hidden {
-    display: none;
-  }
+/* Для плавной прокрутки при нажатии на кнопку */
+html {
+  scroll-behavior: smooth;
+}
 
-  .main {
-     margin-bottom: 20px;
-     display: flex;
-     flex-wrap: wrap;
-     background-color: #aaa;
-     
-  }
+.hidden {
+  display: none;
+}
 
-  img {max-width: 100%;}
+.main {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #aaa;
+
+}
+
+img {
+  max-width: 100%;
+}
 
 
 
-  /* Выделение пиков */
+/* Выделение пиков */
 .fotochki.highlight {
-   padding-top: 6px;
-   padding-right: 6px;
-   padding-bottom: 10px;
-   padding-left: 6px;
-   border: 6px solid;
- }
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  border: 6px solid;
+}
 
- .up-button {
+.up-button {
   position: fixed;
   z-index: 1;
   padding: 0;
@@ -35,15 +42,10 @@
   right: 20px;
   width: 64px;
   height: 64px;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-  border: 5px solid;
-  border-radius: 50%;
-  display: none;
-  cursor: pointer;
 }
 
-
- 
+.up-button:hover {
+  color: #473c8d;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #473c8d;
+}
