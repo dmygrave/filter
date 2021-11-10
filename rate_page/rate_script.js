@@ -6,23 +6,23 @@
 5. Чтобы показать сигнал об ошибке, элементу с классом error нужно добавить класс shown. Сигнал нужно показывать, если пользователь выбрал плохой отзыв. Если выбран хороший отзыв, сигнал об ошибке нужно спрятать.
 */
 
-const reviews = document.querySelectorAll('.review')
-const error = document.querySelector('.error')
-const form = document.querySelector('form')
-const submit = document.querySelector('.submit-button')
+// let reviews = document.querySelectorAll('.review')
+// const error = document.querySelector('.error')
+// const form = document.querySelector('form')
+// const submit = document.querySelector('.submit-button')
 
 
-form.onchange = function () {
- for (const review of reviews) {
-  review.onclick = function () {
-      if (review.dataset.evalution !== 'good') { //если атрибут dataset.evalution НЕ равняется хорошо, то надо выдать эррор
-        error.classList.add('shown')
-        submit.disabled = true
-      }  else {
-        error.classList.remove('shown');
-        submit.disabled = false;
-      }
-    }
-  }
-}
+// form.onchange = function () {
+//  for (let review of reviews) {
+//   review.onclick = function () {
+//       if (review.dataset.evalution !== 'good') { //если атрибут dataset.evalution НЕ равняется хорошо, то надо выдать эррор
+//         error.classList.add('shown')
+//         submit.disabled = true
+//       }  else {
+//         error.classList.remove('shown');
+//         submit.disabled = false;
+//       }
+//     }
+//   }
+// }
   
