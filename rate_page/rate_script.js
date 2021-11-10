@@ -30,6 +30,8 @@
 let review = document.querySelectorAll('.review')
 let button = document.querySelector('.submit-button')
 let error = document.querySelector('.error')
+
+
 for(let rev of review){
 rev.onchange = function () {
   if( rev.dataset.evaluation === 'bad'){
